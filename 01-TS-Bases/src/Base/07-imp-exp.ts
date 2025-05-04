@@ -1,4 +1,5 @@
-import heroes, { owners } from "../data/heroes";
+
+import heroes, { type Owner } from "../data/heroes";
 //En el import de heroes, se trae la const por default de data
 //En cambio con {owners} se debe traer por destr ya que se exporta como array
 
@@ -10,7 +11,7 @@ export const getHeroByID = (id:number)=>{
 
 //console.log(getHeroByID(100));
 
-export const getHeroByOwner = (owner:string)=>{
+export const getHeroByOwner = (owner:Owner)=>{
     return heroes.filter(hero => hero.owner === owner )??{};
 }
 
