@@ -24,3 +24,17 @@ console.log(getUser('ABC-123'));
 
 
 
+const heroes = [
+    {
+        id: 1,
+        name: 'Batman',
+    },
+    {
+        id: 2,
+        name: 'Superman',
+        power: 'Super Streng'
+    },
+];
+
+const hero = heroes.find( (h)=> h.id === 2 );
+console.log(hero?.power?.toUpperCase()); // ? es un null check para que no se caiga el codigo
