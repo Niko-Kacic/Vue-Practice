@@ -8,7 +8,8 @@ import viteLogo from '/vite.svg'
 //import  './Base/03-arrays'
 //import './Base/04-functions';
 //import './Base/05-deses-obj';
-import './Base/06-deses-arrays';
+//import './Base/06-deses-arrays';
+import './Base/07-imp-exp';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
