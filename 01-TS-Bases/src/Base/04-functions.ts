@@ -38,3 +38,5 @@ const heroes = [
 
 const hero = heroes.find( (h)=> h.id === 2 );
 console.log(hero?.power?.toUpperCase()); // ? es un null check para que no se caiga el codigo
+
+
