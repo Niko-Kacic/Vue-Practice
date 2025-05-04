@@ -3,6 +3,9 @@ import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 
 
+//import de bases
+import './Base/02-object';
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
