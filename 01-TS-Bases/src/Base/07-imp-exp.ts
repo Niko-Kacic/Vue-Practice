@@ -4,7 +4,7 @@ import heroes, { type Owner } from "../data/heroes";
 //En cambio con {owners} se debe traer por destr ya que se exporta como array
 
 export const getHeroByID = (id:number)=>{
-   return heroes.find( hero => hero.id === id) ?? {};
+   return heroes.find( hero => hero.id === id);
 }
 
 

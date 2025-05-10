@@ -7,7 +7,7 @@ export interface Hero {
 export type Owner = 'DC' | 'Marvel';//Se crea tipo de datos para usar en la interface
 
 
-const heroes = [
+const heroes: Hero[] = [
     {
         id: 1,
         name: 'Batman',
