@@ -5,7 +5,7 @@ export const getImage = async()=>{//async transforma la funciona, en una que reg
 
   try{
 
-      const resp = await giphyApi.get<GIFResponse>('/rasdndom')
+      const resp = await giphyApi.get<GIFResponse>('/random')
       return resp.data.data.images.downsized_large.url;
     } catch(err){
         throw 'URL no encontrada'
